@@ -1,0 +1,13 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Use a background color that matches your design */
+  }
+  
+  .header-title {
+    font-family: 'Poppins', sans-serif; /* Or 'SuSu' if using a custom font */
+    font-size: 3rem; /* Adjust the size according to your design */
+    color: #333; /* Adjust the color according to your design */
+    margin: 0;
+  }
+  
