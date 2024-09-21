@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import './SignInForm.css';
+import Header from './Header';
+import Footer from './Footer';
 import Input from './Input';
 import Button from './Button';
+import './SignInForm.css';
 
 function SignInForm() {
   const [email, setEmail] = useState('');
@@ -32,6 +34,7 @@ function SignInForm() {
         />
         <Button type="submit" text="Sign In" />
       </form>
+      <Footer />
     </div>
   );
 }
