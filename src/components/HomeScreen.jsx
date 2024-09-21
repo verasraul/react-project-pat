@@ -15,8 +15,7 @@ function HomeScreen() {
     <div className='home-container'>
         <div className='home-content'>
             <h1>Welcome to SuSu</h1>
-            <p>Personalized Content</p>
-        
+            <p>Signed-In HomeScreen!</p>
             <div className='card-grid'>
                 <div className='user-made-payment-card'>
                     <PersonIcon />

@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
-import Header from './Header';
-import Footer from './Footer';
+// import Header from './Header';
+// import Footer from './Footer';
 import Input from './Input';
 import Button from './Button';
 import './SignInForm.css';
 
-function SignInForm() {
+function SignInForm({ onSignIn }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission
+    onSignIn();
   };
 
   return (
@@ -34,7 +35,6 @@ function SignInForm() {
         />
         <Button type="submit" text="Sign In" />
       </form>
-      <Footer />
     </div>
   );
 }
